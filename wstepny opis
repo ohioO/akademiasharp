@@ -1,0 +1,13 @@
+nazwa= bot dla formularzy przegladarek internetowych
+cel i sposob dzialania programu= program okienkowy ma:
+    +otwierac/obslugiwac wybrane arkusze kalkulacyjne, czytac je, 
+    +jednoczesnie pracujac na wybranej stronie internetowej,
+    +zaladowywac wybrana zawartosc arkuszy na witrynie w okienkach formularzy,
+    +przeladowywac strone i pobierac informacje zwrotne ze strony poprzez zapisanie ich w odpowiednich komorkach arkusza
+technologia= wpf + 
+
+// dla wyjasnienia czemu tak: ksiegowi + mali przedsiebiorcy czesto potrzebuja sprawdzic np NIP czy istnieje, po wpisaniu
+go na stronie np ministerstwa otrzymuja info zwrotne np "ISTNIEJE/NIE" itp , problem zaczyna sie gdy takich przykladowych nipow
+maja sprawdzic 10000 dziennie, dlatego dobrze by bylo jakby udalo sie aby program dzialal w tle w petli do ostatniego rekordu oraz
+wiadomo jak z klientem bywa - byl jak najszybszy.
+// nie wiem czy to ma sens budowac "uniwersalnie" czy tylko dla konkretnego przypadku adresu witryny itd
